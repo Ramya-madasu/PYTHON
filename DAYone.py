@@ -98,3 +98,13 @@ s=str(a)
 print(type(s))
 k=float(s)
 print(type(k))    
+
+
+ #by using functions it makes the code be reuseable
+def mom(a,b):
+    print(a+b)
+a=10
+b=20
+mom(a,b)
+mom(5,6)
+   
