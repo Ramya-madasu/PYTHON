@@ -23,13 +23,6 @@ if n%2==0:
 else:
     print("it is an odd number.")
 
-#typecasting
-a=10
-print(type(a))
-s=str(a)
-print(type(s))
-k=float(s)
-print(type(k))    
 
 
 name1=input("enter your name:")
@@ -61,6 +54,8 @@ v=small_letters.count('v')
 e=small_letters.count('e')
 allcount=t+r+u+e+l+o+v+e
 
+lovecalculator
+
 name1=input("enter your name:")
 name2=input("enter your partner name:")
 Bothnames=name1+name2
@@ -84,3 +79,22 @@ elif lovescore<=40 or lovescore>=50:
     print("Your are very lucky to have your partner")
 else:
     print("You are the unique couple in the wolrd")
+
+
+#sets
+lists=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+k=set(lists)
+print(k)
+
+lists=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+k=set(lists)
+k.add(12)
+print(k)
+
+#typecasting
+a=10
+print(type(a))
+s=str(a)
+print(type(s))
+k=float(s)
+print(type(k))    
