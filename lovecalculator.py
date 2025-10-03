@@ -21,3 +21,11 @@ elif lovescore<=40 or lovescore>=50:
     print("Your are very lucky to have your partner")
 else:
     print("You are the unique couple in the wolrd")
+
+3-10-25 #dictionaries
+dict={
+    "model":"1st model",
+    "year":2021,
+    "age":24
+}
+print(dict["model"])
