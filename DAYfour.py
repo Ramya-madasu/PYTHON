@@ -40,3 +40,30 @@ def summ(a,b):
 def diff(a,b):
     return a-b
 def prod(
+
+
+
+
+    class Person:
+    
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+        
+        def __str__(self):
+         return f"{self.name},{self.age} years old"
+         
+person=Person("Akhil",23)
+print(person)
+
+class Dog:
+    
+    def __init__(Dog,name,age):
+        Dog.name = name
+        Dog.age = age
+        
+    def __str__(Dog):
+         return f"{Dog.name},{Dog.age} years old"
+         
+Dog=Dog("june",6)
+print(Dog)
