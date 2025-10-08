@@ -42,7 +42,7 @@ def diff(a,b):
 def prod(
 
 
-
+## Akhil sir class##
 
     class Person:
     
@@ -67,3 +67,94 @@ class Dog:
          
 Dog=Dog("june",6)
 print(Dog)
+
+[08-10-2025]
+## Game loop ##
+
+import random
+
+options = ["rock","paper","scissors"]
+
+while True:
+    user = input("Enter rock, paper or scissors(or 'Exit to stop):").lower()
+    if user =="Exit":
+        print("Thanks for playing!")
+        break
+    
+    computer = random.choice(options)
+    print("computer chose"+ computer)
+    
+    if user == computer:
+        print ("it's a tie!")
+    elif( user =="rock"and computer =="scissors")or\
+        ( user =="paper"and computer =="rock")or\
+        ( user =="scissors"and computer =="paper"):
+        print("You win!")
+    else:
+        print("You lose!")
+    
+ ##strong password loop ##
+    
+password = input("Enter password: ")
+
+has_letter = False    
+has_digit = False
+has_special =False
+
+for ch in password:
+    if ch.isalpha():
+        has_letter = True
+    elif ch.isdigit():
+        has_digit = True
+    else:
+        has_special = True
+        
+if has_letter and has_digit and has_special:
+    print("Strong Password")
+else:
+    print("Weak Password.use letters,number,and symbols.")
+      
+   ## ALARM ## 
+import time
+
+alarm_time = input("Enter alarm time (HH:MM:SS): ")
+print("Alarm set for "+alarm_time)
+print("Waiting for alarm...")
+
+while True:
+    current_time = time.strftime("%H:%M:%S")
+    if current_time == alarm_time:
+        for i in rande(5):
+            print("\a WAKE UP!")
+    break
+time.sleep(1)
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
